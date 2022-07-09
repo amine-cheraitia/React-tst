@@ -9,16 +9,33 @@ import "./App.css";
 			<button onClick={props.func}>Tochield</button>
 		</div>
 	);
-} */
+} 
+
+ou bien
 function Content({ msg, func }) {
-	function declanche() {
+
+	function declenche() {
 		func("randomTest");
 	}
 
 	return (
 		<div>
 			<h5>le pros : {msg}</h5>{" "}
-			<button className="red" onClick={declanche}>
+			<button className="red" onClick={declenche}>
+				Tochield
+			</button>
+		</div>
+	);
+}
+
+*/
+function Content({ msg, func }) {
+	/*  */
+
+	return (
+		<div>
+			<h5>le pros : {msg}</h5>{" "}
+			<button className="red" onClick={() => func("call func")}>
 				Tochield
 			</button>
 		</div>
