@@ -12,3 +12,13 @@ body {
 .title {
 	padding: 10px;
 }
+
+.red {
+	background-color: rgb(134, 60, 60);
+	border: none;
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 5px;
+	outline: darkred 5px;
+	color: #f1f1f1;
+}
